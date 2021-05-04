@@ -8,11 +8,16 @@ button {
   margin: 0 auto;
   display: block;
   background-color: blue;
-  border: 2px solid rgb(0, 0, 0);
-  border-radius: 0.3rem;
+  border: 2px solid rgb(87, 77, 218);
+  border-radius: 0.6rem;
   font-size: 1.2rem;
-  padding: 0.5rem;
+  padding: 0.7rem;
   color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(59, 59, 253);
 }
 
 .info {
